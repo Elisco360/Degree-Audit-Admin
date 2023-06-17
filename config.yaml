@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    entow:
+      email: emmanuel.ntow@ashesi.edu.gh
+      name: Emmanuel Ntow
+      password: $2b$12$AnoEXS94PuZLTqZPaHiyUuiET.GitVLIZ/0oXDB6CaYAcoDVeMgqm # To be replaced with hashed password
+    eboat:
+      email: elijah.boateng@ashesi.edu.gh
+      name: Elijah Boateng
+      password: $2b$12$8kzIPlQD53neyyi2l2cYFuLMkeQcMbtOe8lNm.d1ku8..CmCf1rhK # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: deg2aud4 # Must be string
+  name: browser_cookie
+preauthorized:
+  emails:
+  - elijah.boateng@ashesi.edu.gh
