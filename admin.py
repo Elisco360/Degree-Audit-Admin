@@ -24,7 +24,7 @@ def main():
         students_data.update({'Attended Session': True}, user_key)
 
     with update:
-        st.data_editor(_info, column_order=('Name', 'Major', 'Date', 'Attended Session'),
+        st.data_editor(_info, column_order=('Name', 'Major', 'Date', 'Attended Session 1', 'Attended Session 2', 'Attended Session 3', 'Notes'),
                        disabled=['Name', 'Major', 'Date'], key='edited_data')
         try:
             _altered = _info[int(list(st.session_state['edited_data']['edited_rows'].keys())[0])]
