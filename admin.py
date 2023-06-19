@@ -5,7 +5,7 @@ import yaml
 from streamlit_authenticator import Authenticate
 from yaml.loader import SafeLoader
 
-st.set_page_config(page_icon='favicon.ico', page_title='Admin Portal')
+st.set_page_config(page_icon='favicon.ico', page_title='Admin Portal', layout='wide')
 
 deta = Deta(st.secrets['data_key'])
 
