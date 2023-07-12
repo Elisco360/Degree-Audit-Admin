@@ -32,6 +32,7 @@ def main():
                 students_data.update({'Attended Session': False}, _altered['key'])
             else:
                 students_data.update({'Attended Session': True}, _altered['key'])
+
         except:
             pass
 
